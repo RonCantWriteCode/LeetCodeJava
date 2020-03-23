@@ -18,7 +18,7 @@
 #### 算法1 枚举 O(n*n)
 循环嵌套枚举下标i和j，判断nums[i] + nums[j] = target。时间复杂度O(n*n)
 
-```$xslt
+```$java
 /**
  * 枚举 时间复杂度O(n*n)
  * @param nums
@@ -43,7 +43,7 @@ public int[] twoSum(int[] nums, int target) {
 #### 算法2 哈希 O(n)
 只执行一次循环，将前面数字存储到hashMap中，判断target - nums[i]是否在HashMap中，如存在则可以返回结果。时间复杂度
 O(n)
-```$xslt
+```$java
 /**
  * 哈希 时间复杂度O(n)
  * @param nums

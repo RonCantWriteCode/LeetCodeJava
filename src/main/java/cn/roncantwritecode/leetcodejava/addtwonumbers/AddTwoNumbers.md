@@ -16,3 +16,51 @@
 ```
 
 ### 题解
+
+#### 算法1 依次相加
+依次循环相加，需要添加进位。时间复杂度O(n)
+
+注意：
+1. 定义一个-1的头结点，后面不用循环每次判断需要创建第一个节点
+2. 如果最后有进位需要补1
+
+```$java
+/**
+ * 依次循环相加 O(n)
+ * @param l1
+ * @param l2
+ * @return
+ */
+public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    // 定义一个-1的头结点，后面不用循环每次判断需要创建第一个节点
+    ListNode result = new ListNode(-1);
+    ListNode cur = result;
+
+    // 进位
+    int index = 0;
+    while (l1 != null || l2 != null) {
+        int num1 = l1 == null ? 0 : l1.val;
+        int num2 = l2 == null ? 0 : l2.val;
+        int sum = num1 + num2 + index;
+        // 取整
+        index = sum / 10;
+        // 取余
+        cur.next = new ListNode(sum % 10);
+        cur = cur.next;
+
+        if (l1 != null) {
+            l1 = l1.next;
+        }
+        if (l2 != null) {
+            l2 = l2.next;
+        }
+    }
+
+    // 最后计算大于10，需要补一位
+    if (index > 0) {
+        cur.next = new ListNode(1);
+    }
+
+    return result.next;
+}
+```

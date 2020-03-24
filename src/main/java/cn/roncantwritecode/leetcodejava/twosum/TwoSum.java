@@ -47,6 +47,7 @@ public class TwoSum {
      */
     public int[] twoSumHash(int[] nums, int target) {
         int[] result = new int[2];
+        // key为数值，value为数值下标
         Map<Integer, Integer> map = new HashMap<>(nums.length-1);
         for (int i=0; i < nums.length; i++) {
             int other = target - nums[i];

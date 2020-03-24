@@ -6,7 +6,7 @@ package cn.roncantwritecode.leetcodejava.addtwonumbers;
  */
 public class AddTwoNumbers {
     public static void main(String[] args) {
-        AddTwoNumbers twoSum = new AddTwoNumbers();
+        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);
@@ -14,7 +14,7 @@ public class AddTwoNumbers {
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
 
-        ListNode result = twoSum.addTwoNumbers(l1, l2);
+        ListNode result = addTwoNumbers.addTwoNumbers(l1, l2);
 
         while (result != null) {
             System.out.println(result.val);

@@ -16,6 +16,11 @@ public class LengthOfLongestSubstring {
 
     }
 
+    /**
+     * 用区间扫描(双指针扫描) O(n)
+     * @param s
+     * @return
+     */
     public int lengthOfLongestSubstring(String s) {
         char[] chars = s.toCharArray();
         // key为扫描取钱字符，value为字符数组下标

@@ -61,7 +61,7 @@ public int lengthOfLongestSubstring(String s) {
         // 扫描区间右移
         map.put(chars[j], j);
         // 只保存最大区间
-        maxLength = Integer.max(maxLength, j - i);
+        maxLength = Math.max(maxLength, j - i);
     }
 
     return maxLength;

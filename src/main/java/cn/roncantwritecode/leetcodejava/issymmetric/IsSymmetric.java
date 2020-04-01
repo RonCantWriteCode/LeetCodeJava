@@ -1,7 +1,5 @@
 package cn.roncantwritecode.leetcodejava.issymmetric;
 
-import com.sun.org.apache.xpath.internal.functions.FuncFalse;
-
 import java.util.Stack;
 
 /**

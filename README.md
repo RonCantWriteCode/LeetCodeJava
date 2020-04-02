@@ -15,4 +15,5 @@ LeetCode的java题解
 |101|[对称二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/issymmetric/IsSymmetric.md)|简单|
 |104|[二叉树的最大深度](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxdepth/MaxDepth.md)|简单|
 |121|[买卖股票的最佳时机](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxprofit/MaxProfit.md)|简单|
+|136|[只出现一次的数字](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/singlenumber/SingleNumber.md)|简单|
 

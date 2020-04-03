@@ -17,3 +17,4 @@ LeetCode的java题解
 |121|[买卖股票的最佳时机](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxprofit/MaxProfit.md)|简单|
 |136|[只出现一次的数字](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/singlenumber/SingleNumber.md)|简单|
 |141|[环形链表](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/hascycle/HasCycle.md)|简单|
+|155|[最小栈](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/minstack/MinStack.md)|简单|

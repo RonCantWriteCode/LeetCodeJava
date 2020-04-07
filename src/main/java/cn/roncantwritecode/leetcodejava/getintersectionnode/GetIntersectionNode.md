@@ -44,7 +44,7 @@
 #### 算法1 双指针 O(n)
 
 假设lista=A+C, listb=B+C，相交部分为C。定义两个指针Pa和Pb，Pa先遍历lista再便立即listb，Pb先遍历listb再遍历lista。
-因为A+C+B+C=B+C+A+C，且A+C+B=B+C+A。所以当相交时，两指针肯定在结尾前相遇，当不相交时于结尾相遇。
+因为A+C+B+C=B+C+A+C，且A+C+B=B+C+A。所以当相交时，两指针肯定在结尾前相遇，当不相交时于结尾相遇。时间复杂度O(n)，空间复杂度O(n)。
 
 
 ```$java

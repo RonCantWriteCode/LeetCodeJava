@@ -1,5 +1,9 @@
 package cn.roncantwritecode.leetcodejava.maxdepth;
 
+import cn.roncantwritecode.leetcodejava.utils.ConstructTree;
+import cn.roncantwritecode.leetcodejava.utils.TreeNode;
+import cn.roncantwritecode.leetcodejava.utils.TreeOperation;
+
 /**
  * @author wurunlong
  * @date 2020/4/1
@@ -8,11 +12,9 @@ public class MaxDepth {
 
     public static void main(String[] args) {
         MaxDepth maxDepth = new MaxDepth();
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.right.left = new TreeNode(15);
-        root.right.right = new TreeNode(17);
+        Integer[] nums = {3, 9, 20, 15, 17};
+        TreeNode root = ConstructTree.constructTree(nums);
+        TreeOperation.show(root);
         int result = maxDepth.maxDepth(root);
         System.out.println(result);
     }

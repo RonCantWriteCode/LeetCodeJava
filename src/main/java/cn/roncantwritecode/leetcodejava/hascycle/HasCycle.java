@@ -1,5 +1,7 @@
 package cn.roncantwritecode.leetcodejava.hascycle;
 
+import cn.roncantwritecode.leetcodejava.utils.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 

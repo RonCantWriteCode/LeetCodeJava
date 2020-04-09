@@ -1,5 +1,7 @@
 package cn.roncantwritecode.leetcodejava.reverselist;
 
+import cn.roncantwritecode.leetcodejava.utils.ListNode;
+
 /**
  * @author wurunlong
  * @date 2020/4/9

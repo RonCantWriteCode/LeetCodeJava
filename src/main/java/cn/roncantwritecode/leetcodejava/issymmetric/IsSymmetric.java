@@ -1,5 +1,9 @@
 package cn.roncantwritecode.leetcodejava.issymmetric;
 
+import cn.roncantwritecode.leetcodejava.utils.ConstructTree;
+import cn.roncantwritecode.leetcodejava.utils.TreeNode;
+import cn.roncantwritecode.leetcodejava.utils.TreeOperation;
+
 import java.util.Stack;
 
 /**
@@ -10,13 +14,9 @@ public class IsSymmetric {
 
     public static void main(String[] args) {
         IsSymmetric isSymmetric = new IsSymmetric();
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.right.left = new TreeNode(4);
-        root.right.right = new TreeNode(3);
+        Integer[] nums = {1, 2, 2, 3, 4, 4, 3};
+        TreeNode root = ConstructTree.constructTree(nums);
+        TreeOperation.show(root);
         boolean result = isSymmetric.isSymmetric(root);
         System.out.println(result);
         result = isSymmetric.isSymmetricStack(root);

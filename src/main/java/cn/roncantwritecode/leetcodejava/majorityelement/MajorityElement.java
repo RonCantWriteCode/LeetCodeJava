@@ -11,7 +11,7 @@ public class MajorityElement {
 
     public static void main(String[] args) {
         MajorityElement getIntersectionNode = new MajorityElement();
-        int[] nums = {2,2,1,1,1,2,2};
+        int[] nums = {2, 2, 1, 1, 1, 2, 2};
         int result = getIntersectionNode.majorityElement(nums);
         System.out.println(result);
         result = getIntersectionNode.majorityElementCandidate(nums);

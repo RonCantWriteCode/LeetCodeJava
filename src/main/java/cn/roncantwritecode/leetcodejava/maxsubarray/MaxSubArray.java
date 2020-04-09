@@ -7,10 +7,10 @@ package cn.roncantwritecode.leetcodejava.maxsubarray;
 public class MaxSubArray {
     public static void main(String[] args) {
         MaxSubArray maxSubArray = new MaxSubArray();
-        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int result = maxSubArray.maxSubArray(nums);
         System.out.println(result);
-        int[] nums2 = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] nums2 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         result = maxSubArray.maxSubArrayDivide(nums2);
         System.out.println(result);
 

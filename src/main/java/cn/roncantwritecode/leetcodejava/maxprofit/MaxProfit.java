@@ -8,7 +8,7 @@ public class MaxProfit {
 
     public static void main(String[] args) {
         MaxProfit maxDepth = new MaxProfit();
-        int[] prices = {7,1,5,3,6,4};
+        int[] prices = {7, 1, 5, 3, 6, 4};
         int result = maxDepth.maxProfit(prices);
         System.out.println(result);
     }

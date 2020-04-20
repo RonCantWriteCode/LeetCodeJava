@@ -12,6 +12,7 @@ public class ConstructTree {
         if (nums.length == 0) {
             return new TreeNode(0);
         }
+        // 双队列
         Deque<TreeNode> nodeQueue = new LinkedList<>();
         // 创建一个根节点
         TreeNode root = new TreeNode(nums[0]);

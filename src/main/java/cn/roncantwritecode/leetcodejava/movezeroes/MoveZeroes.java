@@ -8,7 +8,7 @@ public class MoveZeroes {
 
     public static void main(String[] args) {
         MoveZeroes moveZeroes = new MoveZeroes();
-        int[] nums = {1,0,0,3,0,4,5,0,6,8,0,12};
+        int[] nums = {1, 0, 0, 3, 0, 4, 5, 0, 6, 8, 0, 12};
         moveZeroes.moveZeroes(nums);
         for (int num : nums) {
             System.out.println(num);

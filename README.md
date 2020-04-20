@@ -25,3 +25,4 @@ LeetCode的java题解
 |226|[翻转二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/inverttree/InvertTree.md)|简单|
 |234|[回文链表](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/ispalindrome/IsPalindrome.md)|简单|
 |283|[移动零](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/movezeroes/MoveZeroes.md)|简单|
+|437|[路径总和 III](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/pathsum/PathSum.md)|简单|

@@ -16,7 +16,7 @@ public class HammingDistance {
     }
 
     /**
-     * 异或 O(n)
+     * 异或 O(1)
      * @param x
      * @param y
      * @return

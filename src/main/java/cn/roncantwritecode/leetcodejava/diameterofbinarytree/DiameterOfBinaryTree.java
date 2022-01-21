@@ -15,17 +15,29 @@ public class DiameterOfBinaryTree {
         Integer[] nums = {1, 2, 3, 4, 5};
         TreeNode root = ConstructTree.constructTree(nums);
         TreeOperation.show(root);
-        TreeNode result = diameterOfBinaryTree.diameterOfBinaryTree(root);
-        TreeOperation.show(result);
+        int result = diameterOfBinaryTree.diameterOfBinaryTree(root);
+        System.out.println(result);
     }
 
-    /**
-     *
-     * @return
-     */
-    public TreeNode diameterOfBinaryTree(TreeNode root) {
-        
+    private int maxDiameter;
 
-        return null;
+    public int diameterOfBinaryTree(TreeNode root) {
+        maxDiameter = 0;
+        maxDdepth(root);
+        return maxDiameter;
+    }
+
+    private int maxDdepth(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        // 左儿子为根的子树的深度
+        int L = maxDdepth(node.left);
+        // 右儿子为根的子树的深度
+        int R = maxDdepth(node.right);
+        // 计算最大直径
+        maxDiameter = Math.max(maxDiameter, L+R);
+        // 返回该节点为根的子树的深度
+        return Math.max(L, R) + 1;
     }
 }

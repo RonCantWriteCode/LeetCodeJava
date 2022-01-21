@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/20
  */
 public class IsPalindrome {

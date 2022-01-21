@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.utils;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/9
  */
 public class TreeOperation {
@@ -65,6 +65,7 @@ public class TreeOperation {
     public static void show(TreeNode root) {
         if (root == null) {
             System.out.println("EMPTY!");
+            return;
         }
         // 得到树的深度
         int treeDepth = getTreeDepth(root);

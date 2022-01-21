@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.rob;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/9
  */
 public class Rob {

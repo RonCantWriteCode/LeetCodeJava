@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.findmediansortedarrays;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/3/25
  */
 public class FindMedianSortedArrays {

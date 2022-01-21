@@ -7,7 +7,7 @@ import cn.roncantwritecode.leetcodejava.utils.TreeOperation;
 import java.util.Stack;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/1
  */
 public class IsSymmetric {

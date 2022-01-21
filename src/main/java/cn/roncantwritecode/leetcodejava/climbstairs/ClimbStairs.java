@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.climbstairs;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/1
  */
 public class ClimbStairs {

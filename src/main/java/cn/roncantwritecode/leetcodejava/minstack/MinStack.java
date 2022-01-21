@@ -3,7 +3,7 @@ package cn.roncantwritecode.leetcodejava.minstack;
 import java.util.Stack;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/2
  */
 public class MinStack {

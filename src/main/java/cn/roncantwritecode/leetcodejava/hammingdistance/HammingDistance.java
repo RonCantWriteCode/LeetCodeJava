@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.hammingdistance;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/21
  */
 public class HammingDistance {

@@ -26,3 +26,17 @@ nums2 = [3, 4]
 ### 题解
 
 #### 算法1 二分法？ O(log(m + n))
+
+```$java
+/**
+ * 二分法 O(log(m + n))
+ * @param nums1
+ * @param nums2
+ * @return
+ */
+public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    
+
+    return 1;
+}
+```

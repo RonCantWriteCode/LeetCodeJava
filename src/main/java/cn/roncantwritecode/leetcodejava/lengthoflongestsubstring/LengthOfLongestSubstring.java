@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/3/23
  */
 public class LengthOfLongestSubstring {

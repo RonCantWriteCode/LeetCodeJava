@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.maxsubarray;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/3/26
  */
 public class MaxSubArray {

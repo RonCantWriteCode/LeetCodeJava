@@ -3,7 +3,7 @@ package cn.roncantwritecode.leetcodejava.mergetwolists;
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/3/25
  */
 public class MergeTwoLists {

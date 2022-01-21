@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.movezeroes;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/20
  */
 public class MoveZeroes {

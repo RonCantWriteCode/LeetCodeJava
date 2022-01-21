@@ -5,7 +5,7 @@ import cn.roncantwritecode.leetcodejava.utils.TreeNode;
 import cn.roncantwritecode.leetcodejava.utils.TreeOperation;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/21
  */
 public class ConvertBST {

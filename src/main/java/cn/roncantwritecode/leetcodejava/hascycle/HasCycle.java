@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/2
  */
 public class HasCycle {

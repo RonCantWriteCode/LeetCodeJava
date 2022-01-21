@@ -1,7 +1,7 @@
 package cn.roncantwritecode.leetcodejava.utils;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/3/23
  */
 public class ListNode {

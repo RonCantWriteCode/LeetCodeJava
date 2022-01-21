@@ -3,7 +3,7 @@ package cn.roncantwritecode.leetcodejava.reverselist;
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  * @date 2020/4/9
  */
 public class ReverseList {

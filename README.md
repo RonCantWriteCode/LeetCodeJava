@@ -31,3 +31,4 @@ LeetCode的java题解
 |461|[汉明距离](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/hammingdistance/HammingDistance.md)|简单|
 |538|[把二叉搜索树转换为累加树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/convertbst/ConvertBST.md)|中等|
 |543|[二叉树的直径](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/diameterofbinarytree/DiameterOfBinaryTree.md)|简单|
+|617|[合并二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/mergetrees/MergeTrees.md)|简单|

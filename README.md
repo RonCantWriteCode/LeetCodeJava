@@ -24,8 +24,8 @@ LeetCode的java题解
 |206|[反转链表](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/reverselist/ReverseList.md)|简单|
 |226|[翻转二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/inverttree/InvertTree.md)|简单|
 |234|[回文链表](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/ispalindrome/IsPalindrome.md)|简单|
-|283|[移动零](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/countingbits/CountingBits.md)|简单|
-|338|[比特位计数](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/movezeroes/MoveZeroes.md)|简单|
+|283|[移动零](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/movezeroes/MoveZeroes.md)|简单|
+|338|[比特位计数](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/countingbits/CountingBits.md)|简单|
 |437|[路径总和 III](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/pathsum/PathSum.md)|中等|
 |448|[找到所有数组中消失的数字](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/finddisappearednumbers/FindDisappearedNumbers.md)|简单|
 |461|[汉明距离](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/hammingdistance/HammingDistance.md)|简单|

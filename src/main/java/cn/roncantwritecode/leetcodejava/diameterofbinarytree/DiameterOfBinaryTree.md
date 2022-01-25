@@ -24,26 +24,26 @@
 本质还是求二叉树的最大深度。节点的最大直径=左子节点的最大深度+右子节点的最大深度。递归查询树各个节点的最大深度，使用全局变量存储最大的直径。时间复杂度O(n)。
 
 ```$java
-    private int maxDiameter;
+private int maxDiameter;
 
-    public int diameterOfBinaryTree(TreeNode root) {
-        maxDiameter = 0;
-        maxDdepth(root);
-        return maxDiameter;
-    }
+public int diameterOfBinaryTree(TreeNode root) {
+    maxDiameter = 0;
+    maxDdepth(root);
+    return maxDiameter;
+}
 
-    private int maxDdepth(TreeNode node) {
-        if (node == null) {
-            return 0;
-        }
-        // 左儿子为根的子树的深度
-        int L = maxDdepth(node.left);
-        // 右儿子为根的子树的深度
-        int R = maxDdepth(node.right);
-        // 计算最大直径
-        maxDiameter = Math.max(maxDiameter, L+R);
-        // 返回该节点为根的子树的深度
-        return Math.max(L, R) + 1;
+private int maxDdepth(TreeNode node) {
+    if (node == null) {
+        return 0;
     }
+    // 左儿子为根的子树的深度
+    int L = maxDdepth(node.left);
+    // 右儿子为根的子树的深度
+    int R = maxDdepth(node.right);
+    // 计算最大直径
+    maxDiameter = Math.max(maxDiameter, L+R);
+    // 返回该节点为根的子树的深度
+    return Math.max(L, R) + 1;
+}
 ```
 

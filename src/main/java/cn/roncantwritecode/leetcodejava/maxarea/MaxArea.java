@@ -1,4 +1,4 @@
-package cn.roncantwritecode.leetcodejava.maxArea;
+package cn.roncantwritecode.leetcodejava.maxarea;
 
 /**
  * @author Ron Wu

@@ -1,6 +1,7 @@
 package cn.roncantwritecode.leetcodejava.reverselist;
 
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
+import cn.roncantwritecode.leetcodejava.utils.ListNodeOperation;
 
 /**
  * @author Ron Wu
@@ -9,31 +10,18 @@ import cn.roncantwritecode.leetcodejava.utils.ListNode;
 public class ReverseList {
     public static void main(String[] args) {
         ReverseList reverseList = new ReverseList();
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        int[] arrays = {1, 2, 3, 4, 5};
+        ListNode head = ListNodeOperation.convertToSingleListNode(arrays);
 
         ListNode result = reverseList.reverseList(head);
 
-        while (result != null) {
-            System.out.println(result.val);
-            result = result.next;
-        }
+        ListNodeOperation.show(result);
 
-        head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        head = ListNodeOperation.convertToSingleListNode(arrays);
 
         result = reverseList.reverseListReCurrent(head);
 
-        while (result != null) {
-            System.out.println(result.val);
-            result = result.next;
-        }
+        ListNodeOperation.show(result);
     }
 
     /**

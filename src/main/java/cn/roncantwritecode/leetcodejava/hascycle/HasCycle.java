@@ -1,6 +1,7 @@
 package cn.roncantwritecode.leetcodejava.hascycle;
 
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
+import cn.roncantwritecode.leetcodejava.utils.ListNodeOperation;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,12 +13,17 @@ import java.util.Set;
 public class HasCycle {
     public static void main(String[] args) {
         HasCycle hasCycle = new HasCycle();
-        ListNode head = new ListNode(3);
+
+        /*ListNode head = new ListNode(3);
         ListNode l2 = new ListNode(2);
         head.next = l2;
         head.next.next = new ListNode(0);
         head.next.next.next = new ListNode(-4);
-        head.next.next.next.next = l2;
+        head.next.next.next.next = l2;*/
+
+        int[] arrays = {3, 2, 0, -4};
+        ListNode head = ListNodeOperation.convertToSingleListNode(arrays);
+        ListNodeOperation.getListNodeByIndex(head, 3).next = ListNodeOperation.getListNodeByIndex(head, 1);
 
         boolean result = hasCycle.hasCycle(head);
         System.out.println(result);

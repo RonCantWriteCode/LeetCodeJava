@@ -1,6 +1,7 @@
 package cn.roncantwritecode.leetcodejava.mergetwolists;
 
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
+import cn.roncantwritecode.leetcodejava.utils.ListNodeOperation;
 
 /**
  * @author Ron Wu
@@ -10,19 +11,15 @@ public class MergeTwoLists {
 
     public static void main(String[] args) {
         MergeTwoLists mergeTwoLists = new MergeTwoLists();
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
+
+        int[] arrays1 = {2, 4, 3};
+        ListNode l1 = ListNodeOperation.convertToSingleListNode(arrays1);
+        int[] arrays2 = {5, 6, 4};
+        ListNode l2 = ListNodeOperation.convertToSingleListNode(arrays2);
 
         ListNode result = mergeTwoLists.mergeTwoLists(l1, l2);
 
-        while (result != null) {
-            System.out.println(result.val);
-            result = result.next;
-        }
+        ListNodeOperation.show(result);
 
     }
 

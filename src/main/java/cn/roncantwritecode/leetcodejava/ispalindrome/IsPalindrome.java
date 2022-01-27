@@ -1,6 +1,7 @@
 package cn.roncantwritecode.leetcodejava.ispalindrome;
 
 import cn.roncantwritecode.leetcodejava.utils.ListNode;
+import cn.roncantwritecode.leetcodejava.utils.ListNodeOperation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +14,9 @@ public class IsPalindrome {
 
     public static void main(String[] args) {
         IsPalindrome isPalindrome = new IsPalindrome();
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(2);
-        head.next.next.next = new ListNode(1);
+
+        int[] arrays = {1, 2, 2, 1};
+        ListNode head = ListNodeOperation.convertToSingleListNode(arrays);
 
         boolean result = isPalindrome.isPalindrome(head);
         System.out.println(result);

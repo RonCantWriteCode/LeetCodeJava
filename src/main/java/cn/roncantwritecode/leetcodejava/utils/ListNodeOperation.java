@@ -74,6 +74,12 @@ public class ListNodeOperation {
         return newHead.next;
     }
 
+    /**
+     * 根据下标获取某个节点
+     * @param root
+     * @param index
+     * @return
+     */
     public static ListNode getListNodeByIndex(ListNode root, int index) {
         ListNode listNode = null;
         if (index < 1 || root == null) {
@@ -85,5 +91,23 @@ public class ListNodeOperation {
         }
 
         return listNode;
+    }
+
+
+    /**
+     * 获取长度 存在环返回-1
+     * @param root
+     * @return
+     */
+    public int getListNodeLength(ListNode root) {
+        int length = 0;
+        if (hasCycle(root)) {
+            return -1;
+        }
+        while (root != null) {
+            length++;
+            root = root.next;
+        }
+        return length;
     }
 }

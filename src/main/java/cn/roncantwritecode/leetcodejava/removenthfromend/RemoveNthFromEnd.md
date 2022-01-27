@@ -38,8 +38,9 @@
 
 ### 题解
 
-#### 算法1
+#### 算法1 O(n)
 
+获取链表的长度，根据长度和n去删除节点。时间复杂度O(n)。
 
 ```$java
 public ListNode removeNthFromEnd(ListNode head, int n) {

@@ -18,9 +18,25 @@ public class RemoveNthFromEnd {
     }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        for () {
+
+        // 获取长度
+        int length = 0;
+        ListNode listNode = head;
+        while (listNode != null) {
+            length++;
+            listNode = listNode.next;
         }
 
-        return head;
+        // 定义一个新的头结点，方便记录要返回的位置
+        ListNode newHead = new ListNode(-1, head);
+        listNode = newHead;
+        // 获取要移除的前一个节点
+        for (int i = 0; i < length - n; i++) {
+            listNode = listNode.next;
+        }
+        // 移除节点
+        listNode.next = listNode.next.next;
+
+        return newHead.next;
     }
 }

@@ -19,6 +19,7 @@ LeetCode的java题解
 |31|[下一个排列](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/nextpermutation/NextPermutation.md)|中等|
 |53|[最大子序和](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxsubarray/MaxSubArray.md)|简单|
 |70|[爬楼梯](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/climbstairs/ClimbStairs.md)|简单|
+|94|[二叉树的中序遍历](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/inordertraversal/InorderTraversal.md)|简单|
 |101|[对称二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/issymmetric/IsSymmetric.md)|简单|
 |104|[二叉树的最大深度](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxdepth/MaxDepth.md)|简单|
 |121|[买卖股票的最佳时机](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxprofit/MaxProfit.md)|简单|

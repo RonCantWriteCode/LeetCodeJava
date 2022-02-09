@@ -13,10 +13,7 @@ public class FindDisappearedNumbers {
         FindDisappearedNumbers findDisappearedNumbers = new FindDisappearedNumbers();
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
         List<Integer> resultList = findDisappearedNumbers.findDisappearedNumbers(nums);
-        for (Integer result : resultList) {
-            System.out.println(result);
-        }
-
+        System.out.println(resultList);
     }
 
     /**

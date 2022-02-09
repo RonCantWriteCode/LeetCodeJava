@@ -16,6 +16,7 @@ LeetCode的java题解
 |20|[有效的括号](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/isvalid/IsValid.md)|简单|
 |21|[合并两个有序链表](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/mergetwolists/MergeTwoLists.md)|简单|
 |22|[括号生成](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/generateparenthesis/GenerateParenthesis.md)|中等|
+|31|[下一个排列](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/nextpermutation/NextPermutation.md)|中等|
 |53|[最大子序和](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/maxsubarray/MaxSubArray.md)|简单|
 |70|[爬楼梯](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/climbstairs/ClimbStairs.md)|简单|
 |101|[对称二叉树](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/java/cn/roncantwritecode/leetcodejava/issymmetric/IsSymmetric.md)|简单|

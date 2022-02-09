@@ -1,5 +1,7 @@
 package cn.roncantwritecode.leetcodejava.movezeroes;
 
+import cn.roncantwritecode.leetcodejava.utils.IntArrayUtils;
+
 /**
  * @author Ron Wu
  * @date 2020/4/20
@@ -10,9 +12,7 @@ public class MoveZeroes {
         MoveZeroes moveZeroes = new MoveZeroes();
         int[] nums = {1, 0, 0, 3, 0, 4, 5, 0, 6, 8, 0, 12};
         moveZeroes.moveZeroes(nums);
-        for (int num : nums) {
-            System.out.println(num);
-        }
+        IntArrayUtils.printIntArray(nums);
 
     }
 

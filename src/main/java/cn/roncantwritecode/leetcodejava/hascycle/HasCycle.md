@@ -7,7 +7,7 @@
 
  
 
-示例 1:
+示例 1：
 ```
 输入：head = [3,2,0,-4], pos = 1
 输出：true
@@ -15,7 +15,7 @@
 ```
 ![](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/resources/hasCycle/circularlinkedlist.png)
 
-示例 2:
+示例 2：
 ```
 输入：head = [1,2], pos = 0
 输出：true
@@ -23,7 +23,7 @@
 ```
 ![](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/resources/hasCycle/circularlinkedlist_test2.png)
 
-示例 3:
+示例 3：
 ```
 输入：head = [1], pos = -1
 输出：false

@@ -3,7 +3,7 @@
 
 给定一个二叉树的根节点 root ，返回它的 中序 遍历。
 
-示例 1:
+示例 1：
 
 ![](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/resources/inorderTraversal/inorder_1.jpg)
 
@@ -12,21 +12,21 @@
 输出：[1,3,2]
 ```
 
-示例 2:
+示例 2：
 
 ```
 输入：root = []
 输出：[]
 ```
 
-示例 3:
+示例 3：
 
 ```
 输入：root = [1]
 输出：[1]
 ```
 
-示例 4:
+示例 4：
 
 ![](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/resources/inorderTraversal/inorder_5.jpg)
 
@@ -35,7 +35,7 @@
 输出：[2,1]
 ```
 
-示例 5:
+示例 5：
 
 ![](https://github.com/RonCantWriteCode/LeetCodeJava/blob/master/src/main/resources/inorderTraversal/inorder_4.jpg)
 
@@ -44,12 +44,12 @@
 输出：[1,2]
 ```
 
-提示:
+提示：
 
 * 树中节点数目在范围 [0, 100] 内
 * -100 <= Node.val <= 100
 
-进阶: 递归算法很简单，你可以通过迭代算法完成吗？
+进阶： 递归算法很简单，你可以通过迭代算法完成吗？
 
 ### 题解
 

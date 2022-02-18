@@ -7,7 +7,7 @@ push(x) -- 将元素 x 推入栈中。
 pop() -- 删除栈顶的元素。
 top() -- 获取栈顶元素。
 getMin() -- 检索栈中的最小元素。
-示例:
+示例：
 ```
 MinStack minStack = new MinStack();
 minStack.push(-2);

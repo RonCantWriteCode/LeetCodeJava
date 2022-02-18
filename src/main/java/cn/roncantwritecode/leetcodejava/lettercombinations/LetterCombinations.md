@@ -30,8 +30,8 @@
 
 提示:
 
-* 0 <= digits.length <= 4
-*  digits[i] 是范围 ['2', '9'] 的一个数字。
+- 0 <= digits.length <= 4
+- digits[i] 是范围 ['2', '9'] 的一个数字。
 
 
 ### 题解

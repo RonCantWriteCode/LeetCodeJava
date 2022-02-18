@@ -6,7 +6,7 @@ package cn.roncantwritecode.leetcodejava.utils;
  */
 public class TreeOperation {
     /*
-    树的结构示例：
+    树的结构示例:
               1
             /   \
           2       3
